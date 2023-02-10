@@ -6,11 +6,13 @@ Kurum, kuruluş ve STK'lar için afet anında, öncesi, sonrası kullanılmak ü
 
 - afetharita.com
 
+- depremyardim.com
+
+- afetdestek.org
+
+- beniyiyim.com
+
 - afetbilgi.com
-
-- afettedarik.com
-
-- deprem.io
 
 
 
