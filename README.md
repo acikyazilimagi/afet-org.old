@@ -8,7 +8,7 @@ Kurum, kuruluş ve STK'lar için afet anında, öncesi, sonrası kullanılmak ü
 
 - afetbilgi.com
 
-- depremtedarik.com
+- afettedarik.com
 
 - deprem.io
 
