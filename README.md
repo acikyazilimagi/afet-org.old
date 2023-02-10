@@ -8,6 +8,8 @@ Kurum, kuruluş ve STK'lar için afet anında, öncesi, sonrası kullanılmak ü
 
 - afetbilgi.com
 
+- afettedarik.com
+
 - deprem.io
 
 
