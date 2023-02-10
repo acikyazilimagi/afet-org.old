@@ -1,4 +1,4 @@
-# AFED.ORG
+# AFET.ORG
 
 Kurum, kuruluş ve STK'lar için afed anında, öncesi, sonrası kullanılmak üzere açık kaynak olarak geliştirilmiş projelerin yürütüldüğü organizasyondur.
 
