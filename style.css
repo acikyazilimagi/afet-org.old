@@ -41,18 +41,19 @@ header{
 .button{
     text-decoration: none;
     color: black;
-    border: 1px gray solid;
+    border: 1px white solid;
     padding: 10px;
     margin: 0 5px 0 0;
     border-radius: 2em;
     background-color: black;
     color: white;
-    transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s, border-color 0.5s;
 }
 
 .button:hover{
     color: black;
     background-color: white;
+    border-color: black;
 }
 
 .content{
@@ -69,6 +70,13 @@ header{
 .button-dark-mode{
     background-color: white;
     color: black;
+    border-color: black;
+}
+
+.button-dark-mode:hover {
+    background-color: black;
+    border-color: white;
+    color: white;
 }
 
 /* Media Queries */

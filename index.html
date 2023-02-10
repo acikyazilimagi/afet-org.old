@@ -96,10 +96,10 @@
             var element = document.body;
             element.classList.toggle("body-dark-mode");
             const collection = document.getElementsByClassName("button");
-            collection.forEach(element => {
+            document.querySelectorAll('.button').forEach(function (element) {
                 element.classList.toggle("button-dark-mode");
             });
-            // collection.classList.toggle("button-dark-mode");
+
         }
     </script>
 </html>
