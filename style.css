@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+:root {
+    --dark-color: #292c35;
+}
+
 body{
     font-family: Archivo, system-ui;
     transition: background-color 0.5s;
@@ -10,6 +14,17 @@ body{
 
 .logo{
     width: 50%;
+    /* filter: invert(12%) sepia(9%) saturate(1330%) hue-rotate(187deg) brightness(96%) contrast(85%); */
+}
+
+.filter-light{
+    width: 50%;
+    filter: invert(12%) sepia(9%) saturate(1330%) hue-rotate(187deg) brightness(96%) contrast(85%);
+    /* transition: filter 0.1s; */
+}
+
+.filter-dark {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(138deg) brightness(103%) contrast(101%);
 }
 
 header{
@@ -40,20 +55,19 @@ header{
 
 .button{
     text-decoration: none;
-    color: black;
+    color: white;
     border: 1px white solid;
     padding: 10px;
     margin: 0 5px 0 0;
     border-radius: 2em;
-    background-color: black;
-    color: white;
+    background-color: var(--dark-color);
     transition: color 0.3s, background-color 0.3s, border-color 0.5s;
 }
 
 .button:hover{
     color: black;
     background-color: white;
-    border-color: black;
+    border-color: var(--dark-color);
 }
 
 .content{
@@ -63,18 +77,18 @@ header{
 /* Dark Mode */
 
 .body-dark-mode{
-    background-color: black;
+    background-color: var(--dark-color);
     color: white;
 }
 
 .button-dark-mode{
     background-color: white;
     color: black;
-    border-color: black;
+    border-color: var(--dark-color);
 }
 
 .button-dark-mode:hover {
-    background-color: black;
+    background-color: var(--dark-color);
     border-color: white;
     color: white;
 }
