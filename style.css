@@ -42,11 +42,12 @@ header{
     color: black;
     border: 1px gray solid;
     padding: 10px;
-    margin: 0 5px 0 0;
+    margin-bottom: 5px;
     border-radius: 2em;
     background-color: black;
     color: white;
     transition: color 0.3s, background-color 0.3s;
+    display: inline-block;
 }
 
 .button:hover{
@@ -56,6 +57,10 @@ header{
 
 .content{
     text-align: justify;
+}
+
+.content-buttons{
+    text-align: left;
 }
 
 @media only screen and (max-width: 1130px) {
