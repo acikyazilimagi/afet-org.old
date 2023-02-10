@@ -1,14 +1,12 @@
 # AFET.ORG
 
-Kurum, kuruluş ve STK'lar için afed anında, öncesi, sonrası kullanılmak üzere açık kaynak olarak geliştirilmiş projelerin yürütüldüğü organizasyondur.
+Kurum, kuruluş ve STK'lar için afet anında, öncesi, sonrası kullanılmak üzere açık kaynak olarak geliştirilmiş projelerin yürütüldüğü organizasyondur.
 
 # Websiteler
 
 - afetharita.com
 
 - afetbilgi.com
-
-- depremtedarik.com
 
 - deprem.io
 
