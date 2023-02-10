@@ -36,7 +36,8 @@ header{
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap:2em
+    gap:2em;
+    margin-bottom: 5em;
 }
 
 .field{
@@ -71,6 +72,19 @@ header{
 
 .content{
     text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover {
+    color: var(--dark-color);
 }
 
 /* Dark Mode */
@@ -204,6 +218,10 @@ header{
 .button-dark-mode:hover {
     background-color: var(--dark-color);
     border-color: white;
+    color: white;
+}
+
+.link-dark-mode:hover{
     color: white;
 }
 
