@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Archivo, system-ui;
+}
+
+.logo{
+    width: 50%;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap:2em
+}
+
+.field{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 20% 80%;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-style: italic;
+    font-family: Newsreader, Georgia, Times, Times New Roman, serif;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+    border: 1px gray solid;
+    padding: 10px;
+    margin: 0 5px 0 0;
+    border-radius: 2em;
+    background-color: black;
+    color: white;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.button:hover{
+    color: black;
+    background-color: white;
+}
+
+.content{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1130px) {
+    .container {
+        width: 90%;
+        gap:0;
+    }
+    .field {
+        grid-template-columns: auto;
+        margin-bottom: 3em;
+    }
+    .content {
+        text-align: left;
+    }
+    .button {
+        width: 100%;
+        display: block;
+        font-size: 2.5em;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 20px 0px;
+    }
+    .title {
+        font-size: 2em;
+        font-weight: 600;
+        font-family: Archivo, system-ui;
+        font-style: normal;
+    }
+}
