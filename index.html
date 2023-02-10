@@ -4,6 +4,8 @@
     </head>
     <link rel="stylesheet" href="style.css">
     <body>
+        <button onclick="toggleDark()">Toggle dark mode</button>
+
         <div class="container">
             <header>
                 <svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="katman_1" x="0px"
@@ -89,4 +91,15 @@
 
         </footer>
     </body>
+    <script>
+        function toggleDark() {
+            var element = document.body;
+            element.classList.toggle("body-dark-mode");
+            const collection = document.getElementsByClassName("button");
+            collection.forEach(element => {
+                element.classList.toggle("button-dark-mode");
+            });
+            // collection.classList.toggle("button-dark-mode");
+        }
+    </script>
 </html>

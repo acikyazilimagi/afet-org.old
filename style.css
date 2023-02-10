@@ -5,6 +5,7 @@
 
 body{
     font-family: Archivo, system-ui;
+    transition: background-color 0.5s;
 }
 
 .logo{
@@ -57,6 +58,20 @@ header{
 .content{
     text-align: justify;
 }
+
+/* Dark Mode */
+
+.body-dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.button-dark-mode{
+    background-color: white;
+    color: black;
+}
+
+/* Media Queries */
 
 @media only screen and (max-width: 1130px) {
     .container {
