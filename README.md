@@ -14,6 +14,8 @@ Kurum, kuruluş ve STK'lar için afet anında, öncesi, sonrası kullanılmak ü
 
 - afetbilgi.com
 
+- deprem.io
+
 
 
 
