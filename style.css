@@ -31,6 +31,11 @@ header{
     /* margin: 2em 0; */
 }
 
+footer{
+    width: 100%;
+    text-align: center;
+}
+
 .container{
     width: 50%;
     margin: auto;
